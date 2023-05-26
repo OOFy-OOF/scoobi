@@ -86,12 +86,12 @@ export default function Home() {
     
   };
 
-  const handleShowInput = () => {
+  const handleShowInput = () => { //input for adding a new bike
     setShowInput(!showInput);
   };
 
   const handleShowBikeSpecific = (bike) => {
-    setBike(bike);
+    setBike(bike); //set the bike object to be opened
     setShowBikeSpecific(!showBikeSpecific);
     setShowBikesPage(!showBikesPage);
   }

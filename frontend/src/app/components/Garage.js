@@ -10,7 +10,7 @@ const bikes = [
     id: 1,
     images: [require('../images/Mountain-Bike.png'), require('../images/bike2.jpeg'), require('../images/bike1.webp')],
     name: 'Mountain Bike',
-    renter: 'John Doe',
+    renter: 'Me',
     pricePerDay: 25,
     location: 'City A',
   },
@@ -18,42 +18,10 @@ const bikes = [
     id: 2,
     images: [require('../images/Mountain-Bike.png'), require('../images/bike2.jpeg'), require('../images/bike1.webp')],
     name: 'Mountain Bike',
-    renter: 'John Doe',
+    renter: 'Me',
     pricePerDay: 25,
     location: 'City A',
-  },
-  {
-    id: 3,
-    images: [require('../images/Mountain-Bike.png'), require('../images/bike2.jpeg'), require('../images/bike1.webp')],
-    name: 'Mountain Bike',
-    renter: 'John Doe',
-    pricePerDay: 25,
-    location: 'City A',
-  },
-  {
-    id: 4,
-    images: [require('../images/Mountain-Bike.png'), require('../images/bike2.jpeg'), require('../images/bike1.webp')],
-    name: 'Mountain Bike',
-    renter: 'John Doe',
-    pricePerDay: 25,
-    location: 'City A',
-  },
-  {
-    id: 5,
-    images: [require('../images/Mountain-Bike.png'), require('../images/bike2.jpeg'), require('../images/bike1.webp')],
-    name: 'Mountain Bike',
-    renter: 'John Doe',
-    pricePerDay: 25,
-    location: 'City A',
-  },
-  {
-    id: 6,
-    images: [require('../images/Mountain-Bike.png'), require('../images/bike2.jpeg'), require('../images/bike1.webp')],
-    name: 'Mountain Bike',
-    renter: 'John D',
-    pricePerDay: 30,
-    location: 'City A',
-  },
+  }  
 ];
 
 export default function GaragePage ({showInput}) {
