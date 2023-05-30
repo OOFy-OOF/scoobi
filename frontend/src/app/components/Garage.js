@@ -50,7 +50,7 @@ export default function GaragePage ({showInput}) {
   return (
       <div className="w-full">
         {bikes.map((bike) => (
-          <div key={bike.id} className="bg-white mb-4 w-auto">
+          <div key={bike.id} className="bg-white mb-4 w-auto px-2">
             <SwipeableViews
               enableMouseEvents
               index={bikeImages[bike.id]}
