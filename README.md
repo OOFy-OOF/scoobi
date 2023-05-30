@@ -3,8 +3,7 @@
 A platform for renting bicycles or scooters where the owners can post their bicycle and/or scooter availability along with their desired renting fees and the users can choose their rental option from those availability based on their needs. The users will confirm their reservation by making the payment, Scoobi will receive the money from the users and hold it. Once the user confirms getting access to the scooter/bicycle, then the money will be transferred to the owner of the scooter/bicycle after deducting a service fee for using the Scoobi platform.
 
 Type: PWA (Progressive Web App)  
-Frontend framework: Next.js  
-Hosting: Vercel
+Frontend framework: Next.js
 
 # How to Use
 
@@ -29,6 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Frontend
 
-Deploy the frontend app using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the frontend app using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOOFy-OOF%2Fscoobi%2Ftree%2Fmain%2Ffrontend)
