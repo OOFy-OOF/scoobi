@@ -87,7 +87,7 @@ export default function BikesPage ({openBike}) {
       <div className="w-full">
         <h2 className="text-2xl font-sans text-black mb-4 mt-10">Bikes for Rent</h2>
         {bikes.map((bike) => (
-          <div key={bike.id} className="bg-white w-auto">
+          <div key={bike.id} className="bg-white w-auto px-2">
             <SwipeableViews
               enableMouseEvents
               index={bikeImages[bike.id]}
