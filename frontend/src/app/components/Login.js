@@ -112,7 +112,7 @@ export default function LoginPage({ onClose, onContinue }) {
         {/* Separator line with "or" text */}
         <div className="flex items-center mb-4">
           <div className="flex-grow bg-gray-300 h-px"></div>
-          <span className="mx-4 text-gray-500 font-sans">or sing in</span>
+          <span className="mx-4 text-gray-500 font-sans">Or sign in</span>
           <div className="flex-grow bg-gray-300 h-px"></div>
         </div>
 
