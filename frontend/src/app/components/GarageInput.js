@@ -45,7 +45,7 @@ const GarageInputPage = ({onClose}) => {
   };
 
   return (
-    <div className="fixed bottom-0 bg-white border border-black h-2/3 rounded-xl shadow-xl w-full left-0 overflow-y-auto">
+    <div className="fixed bottom-0 bg-white border border-black h-2/3 rounded-xl shadow-xl w-full left-0 p-2 overflow-y-auto">
   <button className="absolute left-2 top-2 mb-12 bg-white text-gray-500 rounded-full p-2 shadow-md z-10" onClick={onClose}>
     <FaArrowLeft className="text-lg" />
   </button>
@@ -60,7 +60,7 @@ const GarageInputPage = ({onClose}) => {
             value={bikeType}
             onChange={handleInputChange}
             placeholder="Enter bike type"
-            className="w-full mb-5 font-sans border-gray-300 border text-black rounded py-2 focus:outline-none focus:border-green-500"
+            className="w-full mb-5 font-sans border-gray-300 border text-black rounded p-2 focus:outline-none focus:border-green-500"
           />
         </div>
         <div>
@@ -72,7 +72,7 @@ const GarageInputPage = ({onClose}) => {
             value={bikeMaker}
             onChange={handleInputChange}
             placeholder="Enter bike manufacturer"
-            className="w-full mb-5 font-sans border-gray-300 border text-black rounded py-2 focus:outline-none focus:border-green-500"
+            className="w-full mb-5 font-sans border-gray-300 border text-black rounded p-2 focus:outline-none focus:border-green-500"
           />
         </div>
         <div>
@@ -84,7 +84,7 @@ const GarageInputPage = ({onClose}) => {
             value={bikeModel}
             onChange={handleInputChange}
             placeholder="Enter bike model"
-            className="w-full mb-5 font-sans border-gray-300 border text-black rounded py-2 focus:outline-none focus:border-green-500"
+            className="w-full mb-5 font-sans border-gray-300 border text-black rounded p-2 focus:outline-none focus:border-green-500"
           />
         </div>
         <div>
@@ -96,7 +96,7 @@ const GarageInputPage = ({onClose}) => {
             value={priceAsk}
             onChange={handleInputChange}
             placeholder="Enter price per day"
-            className="w-full mb-5 font-sans border-gray-300 border text-black rounded py-2 focus:outline-none focus:border-green-500"
+            className="w-full mb-5 font-sans border-gray-300 border text-black rounded p-2 focus:outline-none focus:border-green-500"
           />
         </div>
         <div>
@@ -113,7 +113,7 @@ const GarageInputPage = ({onClose}) => {
         </div>
         <button type="submit"
                 method="POST"
-                className="bg-black text-white font-semibold py-2 rounded-full w-full mt-5 mb-10"
+                className="bg-black text-white font-semibold p-2 rounded-full w-full mt-5 mb-10"
         >Submit</button>
       </form>
       
