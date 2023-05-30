@@ -69,6 +69,7 @@ export default function Home() {
     setShowChat(true);
     setShowBikesPage(false);
     setShowChatSpecific(false);
+    setShowGarage(false);
   };
 
   const handleOpenChatSpecific = (chat) => {
