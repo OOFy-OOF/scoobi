@@ -98,7 +98,7 @@ export default function FinishSignUpPage({ country, phoneNumber, onSubmit, onClo
               placeholder="Birthday (mm/dd/yy)"
             />
             <p className="text-gray-500 text-xs font-sans">
-              To sign up, you need to be at least 18. Your birthday won't be shared with other people who use Scooby.
+              To sign up, you need to be at least 18. Your birthday won&apos;t be shared with other people who use Scooby.
             </p>
           </div>
 

@@ -98,7 +98,7 @@ export default function LoginPage({ onClose, onContinue }) {
 
         {/* Additional text */}
         <p className="text-gray-500 font-sans text-xs mb-4">
-          We'll call or text you to confirm your number. Standard message and data rates apply.
+          We&apos;ll call or text you to confirm your number. Standard message and data rates apply.
         </p>
 
         {/* Continue button */}
