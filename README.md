@@ -23,7 +23,7 @@ npm install # Install neccessary packages with npm
 npm run dev # Run the app in development mode
 ```
 
-Once the app is running, you may access it at http://localhost:3000/
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Deploy
 
