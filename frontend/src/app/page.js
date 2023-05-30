@@ -2,17 +2,17 @@
 
 "use client"
 import { useState } from 'react';
-import LoginPage from '../components/Login';
-import FinishSignUpPage from '../components/Register';
-import BikesPage from '../components/BikesPage';
-import Toolbar from '../components/Toolbar';
-import Searchbar from '../components/Searchbar';
-import Chat from '../components/Chat';
-import ChatScreen from '../components/ChatScreen';
-import FilterPage from '../components/Filters';
-import GaragePage from '../components/Garage';
-import GarageInputPage from '../components/GarageInput';
-import BikeSpecificPage from '../components/BikeSpecific';
+import LoginPage from './components/Login';
+import FinishSignUpPage from './components/Register';
+import BikesPage from './components/BikesPage';
+import Toolbar from './components/Toolbar';
+import Searchbar from './components/Searchbar';
+import Chat from './components/Chat';
+import ChatScreen from './components/ChatScreen';
+import FilterPage from './components/Filters';
+import GaragePage from './components/Garage';
+import GarageInputPage from './components/GarageInput';
+import BikeSpecificPage from './components/BikeSpecific';
 
 export default function Home() {
   const [showLoginForm, setShowLoginForm] = useState(false);
